@@ -117,7 +117,7 @@
 //    printf("%d   %d\n",ps->age,ps->sid);
 //}
 
-int main(int argc, const char * argv[]) {
+//int main(int argc, const char * argv[]) {
 //    int i = 9;
 ////    f(&i);
 //    int a[5] = {1,2,3,4,5};
@@ -164,7 +164,13 @@ int main(int argc, const char * argv[]) {
 //    kuaisupaixu();
 //    maopaopaixu();
 //    charupaixu();
-    zhebancharupaixu();
+//    zhebancharupaixu();
+//    return 0;
+//}
+#include "main1-1.h"
+
+int main(int argc, const char * argv[]) {
+    main11();
     return 0;
 }
 

@@ -18,6 +18,7 @@
 		D41B1F09213193A400D5DB4D /* c1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1F02213193A400D5DB4D /* c1-1.c */; };
 		D41C3EDD20BEE11E00362F0E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D41C3EDC20BEE11E00362F0E /* main.c */; };
 		D43F44502136D4AC00A40A85 /* guibingpaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D43F444E2136D4AC00A40A85 /* guibingpaixu.c */; };
+		D43F44532136DE1F00A40A85 /* bo2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D43F44522136DE1F00A40A85 /* bo2-1.c */; };
 		D4627A962104653200EFB260 /* erchashu.c in Sources */ = {isa = PBXBuildFile; fileRef = D4627A952104653200EFB260 /* erchashu.c */; };
 		D4627A99210483FD00EFB260 /* kuaisupaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D4627A98210483FD00EFB260 /* kuaisupaixu.c */; };
 		D466E23220C6C67A00E56AE8 /* typedefTest.c in Sources */ = {isa = PBXBuildFile; fileRef = D466E23120C6C67A00E56AE8 /* typedefTest.c */; };
@@ -63,6 +64,8 @@
 		D41C3EDC20BEE11E00362F0E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		D43F444E2136D4AC00A40A85 /* guibingpaixu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = guibingpaixu.c; sourceTree = "<group>"; };
 		D43F444F2136D4AC00A40A85 /* guibingpaixu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guibingpaixu.h; sourceTree = "<group>"; };
+		D43F44512136DE1F00A40A85 /* bo2-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-1.h"; sourceTree = "<group>"; };
+		D43F44522136DE1F00A40A85 /* bo2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bo2-1.c"; sourceTree = "<group>"; };
 		D4627A942104653200EFB260 /* erchashu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = erchashu.h; sourceTree = "<group>"; };
 		D4627A952104653200EFB260 /* erchashu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = erchashu.c; sourceTree = "<group>"; };
 		D4627A97210483FD00EFB260 /* kuaisupaixu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kuaisupaixu.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 			children = (
 				D41B1EF7213193A400D5DB4D /* c2-1.h */,
 				D41B1EF8213193A400D5DB4D /* c2-1.c */,
+				D43F44512136DE1F00A40A85 /* bo2-1.h */,
+				D43F44522136DE1F00A40A85 /* bo2-1.c */,
 			);
 			path = "线性表";
 			sourceTree = "<group>";
@@ -112,16 +117,16 @@
 		D41B1EF9213193A400D5DB4D /* 绪论 */ = {
 			isa = PBXGroup;
 			children = (
+				D41B1F00213193A400D5DB4D /* c1.h */,
+				D41B1EFC213193A400D5DB4D /* c1.c */,
+				D41B1F03213193A400D5DB4D /* main1-1.h */,
+				D41B1EFD213193A400D5DB4D /* main1-1.c */,
+				D41B1EFF213193A400D5DB4D /* bo1-1.h */,
 				D41B1EFA213193A400D5DB4D /* bo1-1.c */,
 				D41B1EFB213193A400D5DB4D /* algo1-1.h */,
-				D41B1EFC213193A400D5DB4D /* c1.c */,
-				D41B1EFD213193A400D5DB4D /* main1-1.c */,
-				D41B1EFE213193A400D5DB4D /* c1-1.h */,
-				D41B1EFF213193A400D5DB4D /* bo1-1.h */,
-				D41B1F00213193A400D5DB4D /* c1.h */,
 				D41B1F01213193A400D5DB4D /* algo1-1.c */,
+				D41B1EFE213193A400D5DB4D /* c1-1.h */,
 				D41B1F02213193A400D5DB4D /* c1-1.c */,
-				D41B1F03213193A400D5DB4D /* main1-1.h */,
 			);
 			path = "绪论";
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				D486ADCB210E097F00254F89 /* charupaixu.c in Sources */,
 				D41B1EF0213192F500D5DB4D /* NodeTest.c in Sources */,
 				D4627A99210483FD00EFB260 /* kuaisupaixu.c in Sources */,
+				D43F44532136DE1F00A40A85 /* bo2-1.c in Sources */,
 				D41B1F04213193A400D5DB4D /* c2-1.c in Sources */,
 				D486ADC8210DAD4D00254F89 /* kuaisupaixu2.c in Sources */,
 				D41B1F06213193A400D5DB4D /* c1.c in Sources */,
