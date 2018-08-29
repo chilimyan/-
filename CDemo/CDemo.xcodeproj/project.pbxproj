@@ -10,7 +10,6 @@
 		D41011F420FD5B8F00B13272 /* hannuota.c in Sources */ = {isa = PBXBuildFile; fileRef = D41011F320FD5B8F00B13272 /* hannuota.c */; };
 		D41B1EEF213192F500D5DB4D /* block1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EEA213192F400D5DB4D /* block1.c */; };
 		D41B1EF0213192F500D5DB4D /* NodeTest.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EED213192F400D5DB4D /* NodeTest.c */; };
-		D41B1EF42131937B00D5DB4D /* guibingpaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EF32131937B00D5DB4D /* guibingpaixu.c */; };
 		D41B1F04213193A400D5DB4D /* c2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EF8213193A400D5DB4D /* c2-1.c */; };
 		D41B1F05213193A400D5DB4D /* bo1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EFA213193A400D5DB4D /* bo1-1.c */; };
 		D41B1F06213193A400D5DB4D /* c1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1EFC213193A400D5DB4D /* c1.c */; };
@@ -18,6 +17,7 @@
 		D41B1F08213193A400D5DB4D /* algo1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1F01213193A400D5DB4D /* algo1-1.c */; };
 		D41B1F09213193A400D5DB4D /* c1-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D41B1F02213193A400D5DB4D /* c1-1.c */; };
 		D41C3EDD20BEE11E00362F0E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D41C3EDC20BEE11E00362F0E /* main.c */; };
+		D43F44502136D4AC00A40A85 /* guibingpaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D43F444E2136D4AC00A40A85 /* guibingpaixu.c */; };
 		D4627A962104653200EFB260 /* erchashu.c in Sources */ = {isa = PBXBuildFile; fileRef = D4627A952104653200EFB260 /* erchashu.c */; };
 		D4627A99210483FD00EFB260 /* kuaisupaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D4627A98210483FD00EFB260 /* kuaisupaixu.c */; };
 		D466E23220C6C67A00E56AE8 /* typedefTest.c in Sources */ = {isa = PBXBuildFile; fileRef = D466E23120C6C67A00E56AE8 /* typedefTest.c */; };
@@ -47,8 +47,6 @@
 		D41B1EEA213192F400D5DB4D /* block1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = block1.c; sourceTree = "<group>"; };
 		D41B1EEB213192F400D5DB4D /* block1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = block1.h; sourceTree = "<group>"; };
 		D41B1EED213192F400D5DB4D /* NodeTest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NodeTest.c; sourceTree = "<group>"; };
-		D41B1EF22131937B00D5DB4D /* guibingpaixu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = guibingpaixu.h; path = ../../../../Downloads/DemoC/DemoC/guibingpaixu.h; sourceTree = "<group>"; };
-		D41B1EF32131937B00D5DB4D /* guibingpaixu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = guibingpaixu.c; path = ../../../../Downloads/DemoC/DemoC/guibingpaixu.c; sourceTree = "<group>"; };
 		D41B1EF7213193A400D5DB4D /* c2-1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "c2-1.h"; sourceTree = "<group>"; };
 		D41B1EF8213193A400D5DB4D /* c2-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "c2-1.c"; sourceTree = "<group>"; };
 		D41B1EFA213193A400D5DB4D /* bo1-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bo1-1.c"; sourceTree = "<group>"; };
@@ -63,6 +61,8 @@
 		D41B1F03213193A400D5DB4D /* main1-1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "main1-1.h"; sourceTree = "<group>"; };
 		D41C3ED920BEE11E00362F0E /* CDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		D41C3EDC20BEE11E00362F0E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D43F444E2136D4AC00A40A85 /* guibingpaixu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = guibingpaixu.c; sourceTree = "<group>"; };
+		D43F444F2136D4AC00A40A85 /* guibingpaixu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guibingpaixu.h; sourceTree = "<group>"; };
 		D4627A942104653200EFB260 /* erchashu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = erchashu.h; sourceTree = "<group>"; };
 		D4627A952104653200EFB260 /* erchashu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = erchashu.c; sourceTree = "<group>"; };
 		D4627A97210483FD00EFB260 /* kuaisupaixu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kuaisupaixu.h; sourceTree = "<group>"; };
@@ -147,10 +147,10 @@
 			children = (
 				D41B1EF5213193A400D5DB4D /* 高一凡数据结构 */,
 				D41C3EDC20BEE11E00362F0E /* main.c */,
-				D41B1EF32131937B00D5DB4D /* guibingpaixu.c */,
-				D41B1EF22131937B00D5DB4D /* guibingpaixu.h */,
 				D41B1EEA213192F400D5DB4D /* block1.c */,
 				D41B1EEB213192F400D5DB4D /* block1.h */,
+				D43F444E2136D4AC00A40A85 /* guibingpaixu.c */,
+				D43F444F2136D4AC00A40A85 /* guibingpaixu.h */,
 				D41B1EED213192F400D5DB4D /* NodeTest.c */,
 				D41B1EE9213192F400D5DB4D /* NodeTest.h */,
 				D4FD0C9120C4182400F3DDD3 /* arrayTest.h */,
@@ -234,6 +234,7 @@
 				D4627A962104653200EFB260 /* erchashu.c in Sources */,
 				D41B1F08213193A400D5DB4D /* algo1-1.c in Sources */,
 				D41C3EDD20BEE11E00362F0E /* main.c in Sources */,
+				D43F44502136D4AC00A40A85 /* guibingpaixu.c in Sources */,
 				D486ADC5210DA79D00254F89 /* maopaopaixu.c in Sources */,
 				D486ADCB210E097F00254F89 /* charupaixu.c in Sources */,
 				D41B1EF0213192F500D5DB4D /* NodeTest.c in Sources */,
@@ -246,7 +247,6 @@
 				D41B1F07213193A400D5DB4D /* main1-1.c in Sources */,
 				D41B1F09213193A400D5DB4D /* c1-1.c in Sources */,
 				D41B1EEF213192F500D5DB4D /* block1.c in Sources */,
-				D41B1EF42131937B00D5DB4D /* guibingpaixu.c in Sources */,
 				D466E23520C6C83C00E56AE8 /* LianBiao.c in Sources */,
 				D466E23220C6C67A00E56AE8 /* typedefTest.c in Sources */,
 			);
