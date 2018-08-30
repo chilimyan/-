@@ -23,6 +23,8 @@
 		D4627A99210483FD00EFB260 /* kuaisupaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D4627A98210483FD00EFB260 /* kuaisupaixu.c */; };
 		D466E23220C6C67A00E56AE8 /* typedefTest.c in Sources */ = {isa = PBXBuildFile; fileRef = D466E23120C6C67A00E56AE8 /* typedefTest.c */; };
 		D466E23520C6C83C00E56AE8 /* LianBiao.c in Sources */ = {isa = PBXBuildFile; fileRef = D466E23420C6C83C00E56AE8 /* LianBiao.c */; };
+		D47CE2CB2138266A009BB77B /* func2-3.c in Sources */ = {isa = PBXBuildFile; fileRef = D47CE2CA2138266A009BB77B /* func2-3.c */; };
+		D47CE2CE21382859009BB77B /* main2-1.c in Sources */ = {isa = PBXBuildFile; fileRef = D47CE2CD21382859009BB77B /* main2-1.c */; };
 		D486ADC5210DA79D00254F89 /* maopaopaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D486ADC4210DA79D00254F89 /* maopaopaixu.c */; };
 		D486ADC8210DAD4D00254F89 /* kuaisupaixu2.c in Sources */ = {isa = PBXBuildFile; fileRef = D486ADC7210DAD4D00254F89 /* kuaisupaixu2.c */; };
 		D486ADCB210E097F00254F89 /* charupaixu.c in Sources */ = {isa = PBXBuildFile; fileRef = D486ADCA210E097F00254F89 /* charupaixu.c */; };
@@ -73,6 +75,10 @@
 		D466E23120C6C67A00E56AE8 /* typedefTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = typedefTest.c; sourceTree = "<group>"; };
 		D466E23320C6C83C00E56AE8 /* LianBiao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LianBiao.h; sourceTree = "<group>"; };
 		D466E23420C6C83C00E56AE8 /* LianBiao.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LianBiao.c; sourceTree = "<group>"; };
+		D47CE2C92138266A009BB77B /* func2-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "func2-3.h"; sourceTree = "<group>"; };
+		D47CE2CA2138266A009BB77B /* func2-3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "func2-3.c"; sourceTree = "<group>"; };
+		D47CE2CC21382859009BB77B /* main2-1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "main2-1.h"; sourceTree = "<group>"; };
+		D47CE2CD21382859009BB77B /* main2-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "main2-1.c"; sourceTree = "<group>"; };
 		D486ADC3210DA79D00254F89 /* maopaopaixu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maopaopaixu.h; sourceTree = "<group>"; };
 		D486ADC4210DA79D00254F89 /* maopaopaixu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maopaopaixu.c; sourceTree = "<group>"; };
 		D486ADC6210DAD4D00254F89 /* kuaisupaixu2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kuaisupaixu2.h; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				D41B1EF8213193A400D5DB4D /* c2-1.c */,
 				D43F44512136DE1F00A40A85 /* bo2-1.h */,
 				D43F44522136DE1F00A40A85 /* bo2-1.c */,
+				D47CE2C92138266A009BB77B /* func2-3.h */,
+				D47CE2CA2138266A009BB77B /* func2-3.c */,
+				D47CE2CC21382859009BB77B /* main2-1.h */,
+				D47CE2CD21382859009BB77B /* main2-1.c */,
 			);
 			path = "线性表";
 			sourceTree = "<group>";
@@ -249,6 +259,8 @@
 				D486ADC8210DAD4D00254F89 /* kuaisupaixu2.c in Sources */,
 				D41B1F06213193A400D5DB4D /* c1.c in Sources */,
 				D4FD0C9320C4182400F3DDD3 /* arrayTest.c in Sources */,
+				D47CE2CB2138266A009BB77B /* func2-3.c in Sources */,
+				D47CE2CE21382859009BB77B /* main2-1.c in Sources */,
 				D41011F420FD5B8F00B13272 /* hannuota.c in Sources */,
 				D41B1F07213193A400D5DB4D /* main1-1.c in Sources */,
 				D41B1F09213193A400D5DB4D /* c1-1.c in Sources */,

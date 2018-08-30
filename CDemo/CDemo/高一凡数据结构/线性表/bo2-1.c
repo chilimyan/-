@@ -50,7 +50,7 @@ Status GetElem(struct Sqlist L, int i, ElemType *e){
     if (i < 1 || i > L.length) {
         return ERROR;
     }
-    e = L.elem + i - 1;
+    *e = *(L.elem + i - 1);
     return OK;
 }
 
@@ -80,7 +80,7 @@ Status PriorElem(struct Sqlist L, ElemType cur_e, ElemType *pre_e){
     if (i > L.length) {
         return INFEASIBLE;
     }else{
-        pre_e = --p;
+        *pre_e = *(--p);
         return OK;
     }
 }
@@ -97,7 +97,7 @@ Status NextElem(struct Sqlist L, ElemType cur_e, ElemType *next_e){
     if (i == L.length) {
         return INFEASIBLE;
     }else{
-        next_e = ++p;
+        *next_e = *(++p);
         return OK;
     }
 }
@@ -105,7 +105,7 @@ Status NextElem(struct Sqlist L, ElemType cur_e, ElemType *next_e){
 Status ListInsert(struct Sqlist *L, int i, ElemType e){
     //在L中第i个位置之前插入新的数据元素e，L的长度加1
     ElemType *newBase, *q, *p;
-    if (i < 1 || i > L->length) {//i值不合法
+    if (i < 1 || i > L->length+1) {//i值不合法
         return ERROR;
     }
     if (L->length >= L->listsize) {//当前存储空间已满，增加分配
@@ -123,5 +123,35 @@ Status ListInsert(struct Sqlist *L, int i, ElemType e){
     ++ L->length;//表长增1
     return OK;
 }
+
+Status ListDelete(struct Sqlist *L, int i, ElemType *e){
+    //删除L的第i个数据元素，并用e返回其值，L的长度减1
+    ElemType *p, *q;
+    if (i < 1 || i >L->length) {
+        return ERROR;
+    }
+    p = L->elem + i - 1;//被删除的元素
+    *e = *p;
+    q = L->elem + L->length -1;
+    for (++p ; p <= q; ++p) {
+        *(p-1) = *p;
+    }
+    L->length --;//表长减1
+    return OK;
+}
+
+void ListTraverse(struct Sqlist L, void(*vi)(ElemType *)){
+    //依次对L的每个数据元素调用函数vi()
+    // vi()的形参加′&′，表明可通过调用vi()改变元素的值
+    ElemType *p;
+    int i;
+    p = L.elem;
+    for (i = 1; i <= L.length; i ++) {
+        vi(p++);
+    }
+    printf("\n");
+}
+
+
 
 
