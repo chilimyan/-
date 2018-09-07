@@ -169,9 +169,17 @@
 //}
 #include "main1-1.h"
 #include "main2-1.h"
+#include "algo2-1.h"
+#include "algo2-2.h"
+#include "algo2-3.h"
+#include "algo2-4.h"
+#include "main2-2.h"
+#include "algo2-5.h"
+#include "algo2-6.h"
+#include "main2-3.h"
 
 int main(int argc, const char * argv[]) {
-    main2();
+    main29();
     return 0;
 }
 

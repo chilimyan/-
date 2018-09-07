@@ -10,6 +10,7 @@
 #define c1_1_h
 
 //采用动态分配的顺序存储结构
+
 #include <stdio.h>
 #include "c1.h"
 

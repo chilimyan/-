@@ -10,6 +10,10 @@
 #define main1_1_h
 
 #include <stdio.h>
+#include "c1.h"
+typedef int ElemType;//定义ElemType为int类型
+
+#include "c1-1.h"
 #include "bo1-1.h"
 
 void main11(void);
