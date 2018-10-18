@@ -10,7 +10,7 @@
 #define c2_2_h
 
 #include <stdio.h>
-#include "c2-1.h"
+#include "c1.h"
 
 //定义一个节点
 typedef struct NODE{

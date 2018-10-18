@@ -27,6 +27,7 @@
 #define INFEASIBLE -1
 typedef int Status;//Status是函数的类型,其值是函数结果状态代码，如OK等
 typedef int Boolean;//Boolean是布尔类型,其值是TRUE或FALSE
+typedef int ElemType;//定义ElemType为int类型
 
 
 #endif /* c1_h */

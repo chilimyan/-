@@ -15,8 +15,6 @@
 #include "c2-2.h"
 #include "bo2-2.h"
 
-typedef int ElemType;
-
 void main29();
 
 #endif /* main2_3_h */

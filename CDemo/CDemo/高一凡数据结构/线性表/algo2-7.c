@@ -8,7 +8,7 @@
 
 #include "algo2-7.h"
 
-void PrintStud(ElemType e){
+void PrintStud(StuElemType e){
     //显示记录e的内容
     printf("%-8s %6ld", e.name, e.num);
     if (e.sex == 'm') {
@@ -36,7 +36,7 @@ void ReadIn(struct stud *e){
     scanf("%d",&(e->health));
 }
 
-void WriteToFile(ElemType e){
+void WriteToFile(StuElemType e){
     //将节点信息写入fp指定的文件
     fwrite(&e, sizeof(ElemType), 1, fp);
 }
@@ -44,7 +44,7 @@ void WriteToFile(ElemType e){
 Status ReadFromFile(struct stud *e){
     //由fp指定的文件读取节点信息到e
     int i;
-    i = (int)fread(e, sizeof(ElemType), 1, fp);
+    i = (int)fread(e, sizeof(StuElemType), 1, fp);
     if (i == 1) {
         return OK;
     }else{
@@ -52,11 +52,11 @@ Status ReadFromFile(struct stud *e){
     }
 }
 
-int cmp(ElemType c1, ElemType c2){
+int cmp(StuElemType c1, StuElemType c2){
     return (int)(c1.num - c2.num);
 }
 
-void Modify(LinkList *L, ElemType e){
+void Modify(LinkList *L, StuElemType e){
     //修改节点内容，并按学号将节点非降序插入链表L
     char s[80];
     PrintStud(e);//显示原内容
@@ -84,9 +84,38 @@ void Modify(LinkList *L, ElemType e){
     printf("请输入健康状况(0:%s 1:%s 2:%s):",sta[0],sta[1],sta[2]);
     gets(s);
     if (strlen(s)) {
-        e.health = atoi(s);
+        e.health = atoi(s);//修改完毕
     }
-    InserAscend(L, e, cmp);
+    InserAscend(L, e.num, cmp);//把q所指结点的内容按学号非降序插入
 }
+
+#define N 4//student记录的个数
+
+Status EqualNum(StuElemType c1, StuElemType c2){
+    if (c1.num == c2.num) {
+        return OK;
+    }else{
+        return ERROR;
+    }
+}
+
+Status EqualName(StuElemType c1, StuElemType c2){
+    if (strcmp(c1.name, c2.name)) {
+        return ERROR;
+    }else{
+        return OK;
+    }
+}
+
+void mainStu(){
+    //表的初始记录
+    StuElemType student[N] = {{"王小林",790631,'m',18,"计91",0},{"陈红",790632,'f',20,"计91",1},{"刘建平",790633,'m',21,"计91",0},{"张丽丽",790634,'m',17,"计91",2}};
+    int i,j,flag=1;
+    char filename[13];
+    ElemType e;
+    LinkList T,p,q;
+    InitList2(&T);//初始化链表
+}
+
 
 

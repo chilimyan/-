@@ -15,8 +15,6 @@
 #include "bo2-2.h"
 #include "func2-3.h"
 
-typedef int ElemType;
-
 void main27();
 
 #endif /* algo2_5_h */

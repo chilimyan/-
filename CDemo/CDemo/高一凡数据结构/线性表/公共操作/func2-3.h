@@ -10,7 +10,7 @@
 #define func2_3_h
 
 #include <stdio.h>
-#include "c2-1.h"
+#include "c1.h"
 
 Status equal(ElemType c1, ElemType c2);
 int comp(ElemType a, ElemType b);

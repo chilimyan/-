@@ -24,7 +24,7 @@ struct stud //记录的结构
     int health;
 };
 
-typedef struct stud ElemType;
+typedef struct stud StuElemType;
 
 #include <stdio.h>
 #include "c2-2.h"
@@ -34,6 +34,6 @@ typedef struct stud ElemType;
 char sta[3][16] = {"健康","一般","神经衰弱"};//健康状况
 FILE *fp;//全局变量
 
-void PrintStud(ElemType e);
+void PrintStud(StuElemType e);
 
 #endif /* algo2_7_h */
