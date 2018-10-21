@@ -1,21 +1,18 @@
 //
 //  main.c
-//  静态单链表
+//  循环单链表
 //
-//  Created by chilim on 2018/10/17.
+//  Created by chilim on 2018/10/20.
 //  Copyright © 2018年 chilim. All rights reserved.
 //
 
 #include <stdio.h>
-//#include "algo2-7.h"
-//#include "main2-31.h"
-#include "main2-32.h"
-
+#include "algo2-10.h"
+#include "main2-4.h"
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    printf("Hello, World!\n");
-//    main27();
-//    main231();
-    main232();
+//    main24();
+    main210();
     return 0;
 }
