@@ -1,19 +1,19 @@
 //
 //  main.c
-//  实际应用链表类型
+//  栈的线性存储
 //
-//  Created by chilim on 2018/10/21.
+//  Created by chilim on 2018/10/25.
 //  Copyright © 2018年 chilim. All rights reserved.
 //
 
 #include <stdio.h>
-#include "main2-6.h"
-#include "algo2-11.h"
+#include "main3-1.h"
+#include "algo3-1.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    printf("Hello, World!\n");
-//    main26();
-    main211();
+//    main31();
+    conversion();
     return 0;
 }

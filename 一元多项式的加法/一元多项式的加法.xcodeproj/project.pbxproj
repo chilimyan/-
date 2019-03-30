@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4DF3780217C833000413A5F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF377F217C833000413A5F /* main.c */; };
-		D4DF378C217C840800413A5F /* c1.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF3786217C840700413A5F /* c1.c */; };
-		D4DF378D217C840800413A5F /* func2-3.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF378A217C840800413A5F /* func2-3.c */; };
-		D4DF3790217C844600413A5F /* c2-5.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF378F217C844600413A5F /* c2-5.c */; };
-		D4DF3793217C862D00413A5F /* bo2-6.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF3792217C862D00413A5F /* bo2-6.c */; };
-		D4DF3796217CA61E00413A5F /* main2-6.c in Sources */ = {isa = PBXBuildFile; fileRef = D4DF3795217CA61E00413A5F /* main2-6.c */; };
-		D4E86178217D3B6100220150 /* algo2-11.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E86177217D3B6100220150 /* algo2-11.c */; };
+		D44D3027217FE40D00B5A964 /* main2-7.c in Sources */ = {isa = PBXBuildFile; fileRef = D44D3026217FE40D00B5A964 /* main2-7.c */; };
+		D4E86186217D43E200220150 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E86185217D43E200220150 /* main.c */; };
+		D4E86198217D441200220150 /* bo2-6.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E8618E217D441100220150 /* bo2-6.c */; };
+		D4E86199217D441200220150 /* c2-5.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E86191217D441100220150 /* c2-5.c */; };
+		D4E8619C217D441200220150 /* c1.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E86196217D441200220150 /* c1.c */; };
+		D4E8619F217D44EC00220150 /* bo2-7.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E8619E217D44EC00220150 /* bo2-7.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D4DF377A217C833000413A5F /* CopyFiles */ = {
+		D4E86180217D43E200220150 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,24 +28,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D4DF377C217C833000413A5F /* 实际应用链表类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "实际应用链表类型"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4DF377F217C833000413A5F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		D4DF3786217C840700413A5F /* c1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c1.c; sourceTree = "<group>"; };
-		D4DF3789217C840700413A5F /* c1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
-		D4DF378A217C840800413A5F /* func2-3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "func2-3.c"; sourceTree = "<group>"; };
-		D4DF378B217C840800413A5F /* func2-3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "func2-3.h"; sourceTree = "<group>"; };
-		D4DF378E217C844600413A5F /* c2-5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "c2-5.h"; sourceTree = "<group>"; };
-		D4DF378F217C844600413A5F /* c2-5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "c2-5.c"; sourceTree = "<group>"; };
-		D4DF3791217C862D00413A5F /* bo2-6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-6.h"; sourceTree = "<group>"; };
-		D4DF3792217C862D00413A5F /* bo2-6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bo2-6.c"; sourceTree = "<group>"; };
-		D4DF3794217CA61E00413A5F /* main2-6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "main2-6.h"; sourceTree = "<group>"; };
-		D4DF3795217CA61E00413A5F /* main2-6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "main2-6.c"; sourceTree = "<group>"; };
-		D4E86176217D3B6100220150 /* algo2-11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "algo2-11.h"; sourceTree = "<group>"; };
-		D4E86177217D3B6100220150 /* algo2-11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "algo2-11.c"; sourceTree = "<group>"; };
+		D44D3025217FE40D00B5A964 /* main2-7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "main2-7.h"; sourceTree = "<group>"; };
+		D44D3026217FE40D00B5A964 /* main2-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "main2-7.c"; sourceTree = "<group>"; };
+		D4E86182217D43E200220150 /* 一元多项式的加法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "一元多项式的加法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E86185217D43E200220150 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D4E8618E217D441100220150 /* bo2-6.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "bo2-6.c"; sourceTree = "<group>"; };
+		D4E8618F217D441100220150 /* c2-5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "c2-5.h"; sourceTree = "<group>"; };
+		D4E86190217D441100220150 /* bo2-6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bo2-6.h"; sourceTree = "<group>"; };
+		D4E86191217D441100220150 /* c2-5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "c2-5.c"; sourceTree = "<group>"; };
+		D4E86196217D441200220150 /* c1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c1.c; sourceTree = "<group>"; };
+		D4E86197217D441200220150 /* c1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c1.h; sourceTree = "<group>"; };
+		D4E8619D217D44EC00220150 /* bo2-7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bo2-7.h"; sourceTree = "<group>"; };
+		D4E8619E217D44EC00220150 /* bo2-7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "bo2-7.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D4DF3779217C833000413A5F /* Frameworks */ = {
+		D4E8617F217D43E200220150 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,54 +53,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D4DF3773217C833000413A5F = {
+		D4E86179217D43E200220150 = {
 			isa = PBXGroup;
 			children = (
-				D4DF377E217C833000413A5F /* 实际应用链表类型 */,
-				D4DF377D217C833000413A5F /* Products */,
+				D4E86184217D43E200220150 /* 一元多项式的加法 */,
+				D4E86183217D43E200220150 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D4DF377D217C833000413A5F /* Products */ = {
+		D4E86183217D43E200220150 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4DF377C217C833000413A5F /* 实际应用链表类型 */,
+				D4E86182217D43E200220150 /* 一元多项式的加法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D4DF377E217C833000413A5F /* 实际应用链表类型 */ = {
+		D4E86184217D43E200220150 /* 一元多项式的加法 */ = {
 			isa = PBXGroup;
 			children = (
-				D4DF3787217C840700413A5F /* 数据存储结构 */,
-				D4DF3788217C840700413A5F /* 算法 */,
-				D4DF3786217C840700413A5F /* c1.c */,
-				D4DF3789217C840700413A5F /* c1.h */,
-				D4DF378A217C840800413A5F /* func2-3.c */,
-				D4DF378B217C840800413A5F /* func2-3.h */,
-				D4DF377F217C833000413A5F /* main.c */,
-				D4DF3794217CA61E00413A5F /* main2-6.h */,
-				D4DF3795217CA61E00413A5F /* main2-6.c */,
+				D4E8618D217D441100220150 /* 数据存储结构 */,
+				D4E86192217D441100220150 /* 算法 */,
+				D4E86196217D441200220150 /* c1.c */,
+				D4E86197217D441200220150 /* c1.h */,
+				D4E86185217D43E200220150 /* main.c */,
+				D44D3025217FE40D00B5A964 /* main2-7.h */,
+				D44D3026217FE40D00B5A964 /* main2-7.c */,
 			);
-			path = "实际应用链表类型";
+			path = "一元多项式的加法";
 			sourceTree = "<group>";
 		};
-		D4DF3787217C840700413A5F /* 数据存储结构 */ = {
+		D4E8618D217D441100220150 /* 数据存储结构 */ = {
 			isa = PBXGroup;
 			children = (
-				D4DF3791217C862D00413A5F /* bo2-6.h */,
-				D4DF3792217C862D00413A5F /* bo2-6.c */,
-				D4DF378E217C844600413A5F /* c2-5.h */,
-				D4DF378F217C844600413A5F /* c2-5.c */,
+				D4E8618E217D441100220150 /* bo2-6.c */,
+				D4E8618F217D441100220150 /* c2-5.h */,
+				D4E86190217D441100220150 /* bo2-6.h */,
+				D4E86191217D441100220150 /* c2-5.c */,
 			);
 			path = "数据存储结构";
 			sourceTree = "<group>";
 		};
-		D4DF3788217C840700413A5F /* 算法 */ = {
+		D4E86192217D441100220150 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				D4E86176217D3B6100220150 /* algo2-11.h */,
-				D4E86177217D3B6100220150 /* algo2-11.c */,
+				D4E8619D217D44EC00220150 /* bo2-7.h */,
+				D4E8619E217D44EC00220150 /* bo2-7.c */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -111,73 +106,72 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4DF377B217C833000413A5F /* 实际应用链表类型 */ = {
+		D4E86181217D43E200220150 /* 一元多项式的加法 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4DF3783217C833000413A5F /* Build configuration list for PBXNativeTarget "实际应用链表类型" */;
+			buildConfigurationList = D4E86189217D43E200220150 /* Build configuration list for PBXNativeTarget "一元多项式的加法" */;
 			buildPhases = (
-				D4DF3778217C833000413A5F /* Sources */,
-				D4DF3779217C833000413A5F /* Frameworks */,
-				D4DF377A217C833000413A5F /* CopyFiles */,
+				D4E8617E217D43E200220150 /* Sources */,
+				D4E8617F217D43E200220150 /* Frameworks */,
+				D4E86180217D43E200220150 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "实际应用链表类型";
-			productName = "实际应用链表类型";
-			productReference = D4DF377C217C833000413A5F /* 实际应用链表类型 */;
+			name = "一元多项式的加法";
+			productName = "一元多项式的加法";
+			productReference = D4E86182217D43E200220150 /* 一元多项式的加法 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D4DF3774217C833000413A5F /* Project object */ = {
+		D4E8617A217D43E200220150 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = chilim;
 				TargetAttributes = {
-					D4DF377B217C833000413A5F = {
+					D4E86181217D43E200220150 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = D4DF3777217C833000413A5F /* Build configuration list for PBXProject "实际应用链表类型" */;
+			buildConfigurationList = D4E8617D217D43E200220150 /* Build configuration list for PBXProject "一元多项式的加法" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D4DF3773217C833000413A5F;
-			productRefGroup = D4DF377D217C833000413A5F /* Products */;
+			mainGroup = D4E86179217D43E200220150;
+			productRefGroup = D4E86183217D43E200220150 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4DF377B217C833000413A5F /* 实际应用链表类型 */,
+				D4E86181217D43E200220150 /* 一元多项式的加法 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4DF3778217C833000413A5F /* Sources */ = {
+		D4E8617E217D43E200220150 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DF3796217CA61E00413A5F /* main2-6.c in Sources */,
-				D4DF3780217C833000413A5F /* main.c in Sources */,
-				D4DF378C217C840800413A5F /* c1.c in Sources */,
-				D4E86178217D3B6100220150 /* algo2-11.c in Sources */,
-				D4DF3790217C844600413A5F /* c2-5.c in Sources */,
-				D4DF378D217C840800413A5F /* func2-3.c in Sources */,
-				D4DF3793217C862D00413A5F /* bo2-6.c in Sources */,
+				D4E8619F217D44EC00220150 /* bo2-7.c in Sources */,
+				D4E86199217D441200220150 /* c2-5.c in Sources */,
+				D4E86198217D441200220150 /* bo2-6.c in Sources */,
+				D44D3027217FE40D00B5A964 /* main2-7.c in Sources */,
+				D4E86186217D43E200220150 /* main.c in Sources */,
+				D4E8619C217D441200220150 /* c1.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D4DF3781217C833000413A5F /* Debug */ = {
+		D4E86187217D43E200220150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		D4DF3782217C833000413A5F /* Release */ = {
+		D4E86188217D43E200220150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +282,7 @@
 			};
 			name = Release;
 		};
-		D4DF3784217C833000413A5F /* Debug */ = {
+		D4E8618A217D43E200220150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		D4DF3785217C833000413A5F /* Release */ = {
+		D4E8618B217D43E200220150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -307,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D4DF3777217C833000413A5F /* Build configuration list for PBXProject "实际应用链表类型" */ = {
+		D4E8617D217D43E200220150 /* Build configuration list for PBXProject "一元多项式的加法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4DF3781217C833000413A5F /* Debug */,
-				D4DF3782217C833000413A5F /* Release */,
+				D4E86187217D43E200220150 /* Debug */,
+				D4E86188217D43E200220150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4DF3783217C833000413A5F /* Build configuration list for PBXNativeTarget "实际应用链表类型" */ = {
+		D4E86189217D43E200220150 /* Build configuration list for PBXNativeTarget "一元多项式的加法" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4DF3784217C833000413A5F /* Debug */,
-				D4DF3785217C833000413A5F /* Release */,
+				D4E8618A217D43E200220150 /* Debug */,
+				D4E8618B217D43E200220150 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D4DF3774217C833000413A5F /* Project object */;
+	rootObject = D4E8617A217D43E200220150 /* Project object */;
 }
